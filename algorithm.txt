@@ -1,0 +1,25 @@
+ALGORITHM ASSIGNMENT 3
+
+Goal: To develop a horse basketball game in two different languages that is: Java and C++. Familiarize ourselves with the concept of classes and objects both in java and c++, and to understand the efficiency and implementation ease of one programming language over other.
+
+Input: 
+* None.
+
+Output:
+* Print out the shots made by both player1 and player2 and print the letters collected by them from "HORSE". And display who wins the game. Also ask the user if they would like to continue.
+
+Requirements:
+
+* A player class that defines all major functions including a playersetname and player getname function, a make hit function and a constructor of class player
+* A Game class that drives all the major functions defined in the player class and uses them to create instance of the classs player and hence prints the approriate output.
+* A Player function of class Player helps set and get the player name.
+* A makehit function of class Player helps generate random number (from 1 or 2) which intern helps player take shot.
+* A playerScore function that helps to keep track of, update and print position of tortoise and hare each time the dice is rolled (move is made).
+
+Step – by – Step Details:
+1. Declare the instance variable we would be using that is a name variable, a takeshot variable, a character array that stores characters H, O, R, S, E which inturn is passed to a player who misses the shot if other one hits the shot
+2. Create a player class that helps define major functions and a game class that creates instance of class player and implements major functions defined.
+3. In the class player define a default constructor player and than the functions player setname and player getname that helps to set and get the player names. This way we can create the instance of class player.
+4. Define a make hit function that generates a random number ( 1 or 2) each with 50% probability to show up. If the random number is one than the player hits a shot else player misses the shot. 
+5. Than define a player score function that helps keep track of the letters collected by each player one and player 2. If either of the player has all the characters that is HORSE than that player looses the game.
+6. Later sk the user if they would like to continue. If they respond Y than start the game again else say thank you!
